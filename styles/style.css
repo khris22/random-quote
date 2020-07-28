@@ -50,6 +50,7 @@ body {
 .header1 {
   /* align-items: center; */
   text-align: center;
+  font-size: 50px;
 }
 
 footer {
