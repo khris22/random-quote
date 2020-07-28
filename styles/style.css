@@ -30,6 +30,7 @@ body {
 }
 
 #new-quote-button {
+  background: #969195;
   background-color: #969195;
   border: 2px solid #646064;
   color: white;
@@ -37,6 +38,7 @@ body {
   text-align: center;
   display: inline-block;
   font-size: 16px;
+  text-decoration: none;
   transition-duration: 0.2s;
 }
 

@@ -17,7 +17,7 @@ class Quote {
   getQuote() {
     this.adapter.getRandomQuote().then((quote) => {
       this.quoteParagraph.innerText = quote.content;
-      this.quoteAuthor.innerText = quote.author;
+      this.quoteAuthor.innerText = '~ ' + quote.author;
     });
   }
 }
