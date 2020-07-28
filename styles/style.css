@@ -5,4 +5,51 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 40px 40px 10px;
+}
+
+#quote-content {
+  background-color: #f3bcbc;
+  display: block;
+  padding: 30px;
+  text-align: center;
+  border: darkred;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#quote-paragraph {
+  font-family: 'Dancing Script', cursive;
+  font-size: xx-large;
+  padding: 20px 20px 5px;
+}
+#quote-author {
+  font-family: 'Raleway', sans-serif;
+  padding: 5px 20px 20px;
+  font-size: large;
+}
+
+#new-quote-button {
+  background-color: #969195;
+  border: 2px solid #646064;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+}
+
+#new-quote-button:hover {
+  background-color: #4f9fe9;
+  color: white;
+}
+
+.header1 {
+  /* align-items: center; */
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
 }
