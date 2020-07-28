@@ -3,26 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
     <title>Random Quote</title>
   </head>
   <body>
     <!-- Main Container -->
     <div>
-      <h1>IS THIS WORKING?</h1>
+      <h1 class="header1">RANDOM QUOTE</h1>
       <!-- Quote Card -->
       <div id="quote-container">
         <div id="quote-content">
           <h3 id="quote-paragraph"></h3>
           <p id="quote-author"></p>
+          <button id="new-quote-button">Get New Quote</button>
         </div>
-        <button id="new-quote-button">Get New Quote</button>
       </div>
-      <!-- Footer -->
-      <footer>
-        <small>&copy; 2020 <strong>Random Quotes by Khris P.</strong></small>
-      </footer>
     </div>
+    <!-- Footer -->
+    <footer>
+      <small>&copy; 2020 <strong>Random Quotes by Khris P.</strong></small>
+    </footer>
 
     <!-- JS  -->
     <script src="src/components/quote.js"></script>
