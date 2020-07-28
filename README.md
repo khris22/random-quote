@@ -1,5 +1,7 @@
 # Be Inpired!
 
+Live: https://khris22.github.io/random-quote/
+
 Be Inspired is a random quote generator made from Javascript, HTMl, and CSS. It fetches quotes from an external api, [Quotable.io](https://github.com/lukePeavey/quotable).
 
 ## Contributing
